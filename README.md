@@ -34,6 +34,10 @@ Then open **http://localhost:3000**.
 
 On Windows you can also just double-click **`start.bat`**.
 
+### Get a public link (Cloudflare Tunnel)
+
+Double-click **`share.bat`**. It installs everything it needs, starts the server and prints a public `https://xxxx.trycloudflare.com` link that works from any phone or computer. The link works only while that window is open and your PC is on, and you get a new link each time you run it.
+
 ## Notes
 
 - This needs a server, because browsers can't download from YouTube directly. It won't run on GitHub Pages. To host it, you can use any Node host that allows binaries (a VPS, Render, Railway, Fly.io).
